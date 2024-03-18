@@ -1,8 +1,2 @@
-/pgdata
-/data
-/rewards
-/rewards.yaml
-/.tmp
-.env
 .DS_Store
 node_modules
