@@ -127,6 +127,7 @@ func check(rewards map[common.Address]*big.Int, totalAmount *big.Int) bool {
 		return false
 	}
 
+	log.Infow("check successful", "sum", sum.String(), "totalAmount", totalAmount.String())
 	return true
 }
 
