@@ -18,5 +18,6 @@ var rootCmd = &cobra.Command{
 func main() {
 	_ = logging.SetLogLevel("*", "INFO")
 	rootCmd.AddCommand(calcCmd)
+	rootCmd.AddCommand(sumCmd)
 	_ = rootCmd.Execute()
 }
