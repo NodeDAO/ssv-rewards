@@ -19,5 +19,6 @@ func main() {
 	_ = logging.SetLogLevel("*", "INFO")
 	rootCmd.AddCommand(calcCmd)
 	rootCmd.AddCommand(sumCmd)
+	rootCmd.AddCommand(calcEigenCmd)
 	_ = rootCmd.Execute()
 }
